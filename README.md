@@ -1,4 +1,4 @@
-# react-slider
+# One by One Gallery
 
 A simple React with Slick slider gallery designed for small screen devices, yet compatible with all screen sizes.
 
@@ -42,13 +42,11 @@ Then you can install `create-react-app` globally on command line with:
 `npm i -g create-react-app`
 
 
-
-
 ### Install / Setup
 In your terminal (or command line) change directory to you project repository or one directory up from where this app will be installed.
 i.e.
 
-`cd C:\home\react`
+`cd /home/react`
 
 (my React projects are in c:/home/react)
 
@@ -62,7 +60,7 @@ Go into this directory ...
 
 `cd gfx`
 
-Now install these additional node modules :
+Now install the required components :
 
 `npm install react-slick --save`
 
@@ -76,11 +74,38 @@ This should automatically open a page in your default web browser at :
 
 [http://localhost:3000](http://localhost:3000)
 
+You should see the default React test page.
+
+Stop the server, I use CTRL-C, or just close the terminal window.
+
 Now you have React ready to go, you'll need to download my project files from Github.
 
+## Install these project files...
 
+Go here and download the zip into your project directory:
 
-## What's with all the nesting?
+[https://github.com/sirjeff/react-slider](https://github.com/sirjeff/react-slider)
+
+Remove the 'src' and 'public' directories from your project.
+
+Now open the zip file and go into the react-app directory.
+
+Drag 'src' 'public' and '.env' into your project directory.
+
+Run the server again from command line (terminal) : `npm start`
+
+And there you have it :)
+
+-- more details and maybe some pictures coming soon!
+
+## Frequently asked Stuff (FaS)
+### Is the code in your Graphical Portfolio the same as this repo?
+About 90% is the same. 
+It was 100% but I've optimised the code for production.
+
+Also any changes to this repo do not go into the portfolio anymore .... because it's live already.
+
+### What's with all the nesting?
 Glad you asked.
 
 Well originally images were added via the `img` tag and there was an overload of code to have the images resize to fit.
@@ -94,5 +119,10 @@ Eventually I reverted back to using a background image and the CSS `background-s
 I only went down the `img` path because I thought the `image-rendering` CSS did not work on background images. But it does - so yah!!
 
 So all the nested `div` tags and CSS for it are all still there, just-in-case you really want them. It's easier to remove than it is to add ;)
+
+
+## Helpful Links
+- [https://kenwheeler.github.io/slick/](https://kenwheeler.github.io/slick/) : Slick, the last carousel you'll ever need
+- [https://react-slick.neostack.com/docs/get-started/](https://react-slick.neostack.com/docs/get-started/) : React Slick
 
 
