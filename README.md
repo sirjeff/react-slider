@@ -88,7 +88,7 @@ Go here and download the zip into your project directory:
 
 Remove the 'src' and 'public' directories from your project.
 
-Now open the zip file and go into the react-app directory.
+Now open the zip file and go into the 'react-slider' directory.
 
 Drag 'src' 'public' and '.env' into your project directory.
 
