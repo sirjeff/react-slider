@@ -1,6 +1,6 @@
 {
-  "short_name": "Graphics Portfolio",
-  "name": "Graphics Portfolio - Dwayne Pivac",
+  "short_name": "Gallery Slider",
+  "name": "React vs Slick Photo Gallery Slider thingy",
   "icons": [
     {
       "src": "favicon.ico",
